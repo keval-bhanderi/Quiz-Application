@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="Quiz.css">
+</head>
+<body>
+    <div class="container" id="quiz">
+        <header class="quiz-header" id="quiz-header">
+            <h1 style="text-align: center;">KBC Quiz</h1>
+        </header>
+
+        <div class="quiz-content" id="quiz-content">
+            <div class="question-number" id="question-number"></div>
+            <div class="timer" id="timer">Time Left: 10</div>
+            <div class="question-text" id="question-text"></div>
+
+            <ul class="option-list" id="option-list"></ul>
+
+            <button class="btn next-btn" id="next-btn">Next Question</button>
+        </div>
+
+        <div class="scoreboard hidden" id="scoreboard">
+            <h2>Quiz completed</h2>
+            <p class="score-message" id="score-message"></p>
+            <button class="btn restart-btn" id="restart-btn">Restart Quiz</button>
+        </div>
+    </div>
+    <footer class="quiz-footer" id="quiz-footer">
+        <p>KBC style Quiz.All Right Reserved</p>
+    </footer>
+    <script src="Quiz.js"></script>
+</body>
+</html>
